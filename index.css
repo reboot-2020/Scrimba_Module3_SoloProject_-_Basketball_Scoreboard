@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.home-wrapper, .guest-wrapper {
+    margin: 30px 5px 0px;
+    padding: 0 25px 15px;
+    border-radius: 25px;
+    border: 3px solid #1B244A;
+}
+
+.teams {
+    color: white;
+    margin: 15px auto 15px;
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background-color: black;
+    border-radius: 10px;
+    color: #F94F6D;
+    font-size: 90px;
+    margin: 0;
+    padding: 15px 20px 0px;
+}
+
+.score-btn-wrapper {
+    margin: 10px auto 25px;
+}
+
+.btn {
+    color: #9AABD8;
+    background: #1B244A;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    border: 1px solid #9AABD8;
+    border-radius: 7px;
+    padding: 5px 0 0px;
+}
+
+.score-btn {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    margin: 0 auto 10px;
+}
+
+.score-btn:hover {
+    cursor: pointer;
+    color: #1B244A;
+    background: #9AABD8;
+    border: 1px solid #9AABD8;
+}
+
+.fouls {
+    margin: 10px 0;
+    padding: 0;
+    background-color: black;
+    border-radius: 8px;
+    padding: 10px 0 20px;
+}
+
+h5 {
+    margin: 0 ;
+    padding: 0;
+    color: white;
+    font-size: 24px;
+}
+
+.fouls-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 14px;
+    margin: 0 auto;
+    color: #1B244A;
+    background: white;
+}
+
+.fouls-btn:hover {
+    cursor: pointer;
+    background: #F94F6D;
+    color: white;
+}
+
+.new-game-btn {
+    margin: 60px auto 30px;
+    padding: 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    background-color: #F94F6D;
+    border: none;
+    border-radius: 10px;
+}
+
+.new-game-btn:hover {
+    cursor: pointer;
+    color: #F94F6D;
+    background-color: white;
+    box-shadow: 0 0 25px #F94F6D;
+}
